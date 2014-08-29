@@ -157,33 +157,13 @@ else
                                 </div>
                             	<div id="time">
                               
-									<script type="text/javascript">
-										<!--
-											var currentTime = new Date()
-											var hours = currentTime.getHours()
-											var minutes = currentTime.getMinutes()
-										
-											if (minutes < 10)
-											minutes = "0" + minutes
-										
-											var suffix = "AM";
-											if (hours >= 12) {
-											suffix = "PM";
-											hours = hours - 12;
-											}
-											if (hours == 0) {
-											hours = 12;
-											}
-										
-											document.write( hours + ":" + minutes + " " + suffix )
-										//-->
-									</script>
+									
                                  
                                 </div>
                             </div>
                             
                             <div class="calendar_clock">
-                            	<img src="<?php echo $this->baseurl?>/templates/<?php echo $this->template?>/images/time_logo.png" width="44" height="46" alt="time" />
+                            	
                             </div>
                         
                     </div>
