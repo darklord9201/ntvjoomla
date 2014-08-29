@@ -27,8 +27,7 @@ h1,h2,h3,h4,h5,h6,a,img,ul,li,fieldset{margin:0; padding:0; outline:none; border
 	padding:0;
 	width:100%;
 	height:107px;
-	background:url(../images/header_background.png);
-	opacity:0.9;
+	background: rgba(229, 99, 4, 0.8);
 	z-index:99999;
 	position:absolute;
 }
@@ -79,21 +78,23 @@ h1,h2,h3,h4,h5,h6,a,img,ul,li,fieldset{margin:0; padding:0; outline:none; border
 
 
 #slider{
-	margin:0;
+	margin:0 auto;
 	padding:0;
 	width:100%;
-	height:auto;
+	height:575px;
 	z-index:-999999;
 	position:relative;
 	overflow:hidden;
 }
-
+#slider img{ width: 100%}
+#slider_overlay{ width: 100%; height: 100%; display: block;  background-image: url('../images/smalldots.png'); background-repeat: repeat;}
 #searchicon{
 	margin:0 8px 0 0;
 	width:38px;
 	height:46px;
 	float:right;
-	background:#cf6416;
+	background: rgba(229, 99, 4, 0.8);
+	
 	
 }
 
@@ -969,7 +970,7 @@ h1,h2,h3,h4,h5,h6,a,img,ul,li,fieldset{margin:0; padding:0; outline:none; border
 	display:block;
 	overflow:hidden;
 	clear:both;
-	background:#666;
+	background:#272428;
 }
 
 #footer_topborder{
@@ -985,7 +986,7 @@ h1,h2,h3,h4,h5,h6,a,img,ul,li,fieldset{margin:0; padding:0; outline:none; border
 	padding:0;
 	width:100%;
 	height:195px;
-	background:#933;
+	background:#1C1C1C;
 }
 
 #footer_copyright{
@@ -1038,6 +1039,8 @@ h2{
 	font-size:14px;
 	color:#471f04;
 	}
+
+
 #maincontent_leftwrapper h1{
 	font-family:"[CaviarDreams]";
 	font-size:17.65px;
@@ -1047,7 +1050,7 @@ h2{
 	
 }
 
-
+#maincontent_rightwrapper{ margin-top: 30px;}
 #maincontent_rightwrapper h1{
 	font-family:"[CaviarDreams]";
 	font-size:17.65px;

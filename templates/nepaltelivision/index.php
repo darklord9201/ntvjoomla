@@ -41,6 +41,7 @@ $doc->addScript('templates/' . $this->template . '/js/bootstrap.min.js');
 $doc->addScript('templates/' . $this->template . '/js/template.js');
 
 
+
 // Add Stylesheets
 $doc->addStyleSheet('templates/' . $this->template . '/css/bootstrap.min.css');
 
@@ -90,7 +91,7 @@ else
                 </div>
                 <div id="left_header_wrapper_heading">
                 	<div id="header_heading_top">
-                    	<h1> <span class="ntvcolor"> Nepal Television </span> </h1>
+                    	<h1> <span class="ntvcolor"> <?php echo $logo; ?> </span> </h1>
                     </div>
                     <div id="header_heading_bottom">
                     	<h3> communication for development </h3>
@@ -204,14 +205,16 @@ else
                 </div>
             </div>
         <div id="searchicon">
-        	<img src="<?php echo $this->baseurl?>/templates/<?php echo $this->template?>/images/search_icon.png" width="38" height="46" alt="search_icon" />
+        	
         </div>
         </div>
         
         
     </div>
+    <div id="slider_overlay">
+    </div>
     <div id="slider">
-		<img src="<?php echo $this->baseurl?>/templates/<?php echo $this->template?>/images/slider.png" width="1536" height="770" alt="slider" />
+		<img src="<?php echo $this->baseurl?>/templates/<?php echo $this->template?>/images/slider2.jpg" alt="slider" />
     </div>
     
     
