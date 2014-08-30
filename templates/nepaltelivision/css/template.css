@@ -117,13 +117,13 @@ h1,h2,h3,h4,h5,h6,a,img,ul,li,fieldset{margin:0; padding:0; outline:none; border
 #left_header_wrapper_logo{
 	margin:0;
 	padding:0;
-	width:90px;
+	
 	height:107px;
 	float:left;
 }
 
 #ntv_logo{
-	margin:13.5px 11.5px 0 11.5px;
+	margin:13.5px 5px 0px;
 	padding:0;
 	width:63px;
 	height:84px;
@@ -145,17 +145,10 @@ h1,h2,h3,h4,h5,h6,a,img,ul,li,fieldset{margin:0; padding:0; outline:none; border
 	padding:30px 0 0 0;
 	width:189px;
 	height:34px;
-	/*background:#666;*/
+	
 }
-
-
-#header_heading_bottom{
-	margin:0;
-	padding:0;
-	width:189px;
-	height:43px;
-	/*background:#666;*/
-}
+#header_heading_top h1{ font-size: 25px; font-weight: bold;}
+#header_heading_top h3{ color: #ffffff; font-size: 13px;}
 
 
 #right_header_wrapper{
@@ -211,6 +204,9 @@ h1,h2,h3,h4,h5,h6,a,img,ul,li,fieldset{margin:0; padding:0; outline:none; border
 	height:57px;
 	/*background:#eee;*/
 	float:left;
+	font-family: arial;
+	font-weight: bold;;
+	font-size: 5px;
 }
 
 #date{
@@ -1036,8 +1032,8 @@ h2{
 	
 #date{
 	font-family:Arial;
-	font-size:14px;
-	color:#471f04;
+	font-size:13px;
+	color:#ffffff;
 	}
 
 
@@ -1109,7 +1105,3 @@ h2{
 
 
 /**************clock styles************************/
-svg{
-  display: block;
-  margin: auto;
-}

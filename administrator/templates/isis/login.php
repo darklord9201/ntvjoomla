@@ -86,10 +86,20 @@ $sitename = $app->get('sitename');
 		<div id="content">
 			<!-- Begin Content -->
 			<div id="element-box" class="login well">
-				<img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template ?>/images/joomla.png" alt="Joomla!" />
+				<centre>
+					<h3 >Nepal Telivision Admin</h3>
+					<small>communicationg for development</small>
+				</centre>
 				<hr />
+
 				<jdoc:include type="message" />
 				<jdoc:include type="component" />
+
+				<hr />
+				<p class=" btm_nav">
+					&copy; <?php echo date('Y'); ?> <?php echo $sitename; ?>
+				</p>
+				
 			</div>
 			<noscript>
 				<?php echo JText::_('JGLOBAL_WARNJAVASCRIPT'); ?>
@@ -98,11 +108,11 @@ $sitename = $app->get('sitename');
 		</div>
 	</div>
 	<div class="navbar navbar-fixed-bottom hidden-phone">
-		<p class="pull-right">
-			&copy; <?php echo date('Y'); ?> <?php echo $sitename; ?>
+		<p class="pull-right btm_nav">
+			&copy; <?php echo date('Y'); ?> designed and developed by <a href="http://www.featherwebs.com" target="_blank">Featherwebs</a>
 		</p>
-		<a class="login-joomla hasTooltip" href="http://www.joomla.org" target="_blank" title="<?php echo JHtml::tooltipText('TPL_ISIS_ISFREESOFTWARE'); ?>">Joomla!&#174;</a>
-		<a href="<?php echo JUri::root(); ?>" target="_blank" class="pull-left"><i class="icon-share icon-white"></i> <?php echo JText::_('COM_LOGIN_RETURN_TO_SITE_HOME_PAGE'); ?></a>
+		
+		<a href="<?php echo JUri::root(); ?>" target="_blank" class="pull-left btm_nav"><i class="icon-share icon-white"></i> <?php echo JText::_('COM_LOGIN_RETURN_TO_SITE_HOME_PAGE'); ?></a>
 	</div>
 	<jdoc:include type="modules" name="debug" style="none" />
 </body>

@@ -6983,12 +6983,12 @@ body {
 }
 .view-login {
 	padding-top: 0;
-	background-color: #142849;
-	background-image: -webkit-gradient(radial,center center,0,center center,460,from(#165387),to(#142849));
-	background-image: -webkit-radial-gradient(circle,#165387,#142849);
-	background-image: -moz-radial-gradient(circle,#165387,#142849);
-	background-image: -o-radial-gradient(circle,#165387,#142849);
-	background-image: radial-gradient(circle,#165387,#142849);
+	background-color: #dadada;
+	background-image: -webkit-gradient(radial,center center,0,center center,460,from(#dadada),to(#f3f3f3));
+	background-image: -webkit-radial-gradient(circle,#dadada,#f3f3f3);
+	background-image: -moz-radial-gradient(circle,#dadada,#f3f3f3);
+	background-image: -o-radial-gradient(circle,#dadada,#f3f3f3);
+	background-image: radial-gradient(circle,#dadada,#f3f3f3);
 	background-repeat: no-repeat;
 }
 .view-login .container {
@@ -7967,3 +7967,5 @@ a.grid_true {
 	width: 16px;
 	background-image: url('../images/admin/icon-16-allow.png');
 }
+.login_button{ background-color: #fa9101; border: none; outline: none;padding: 10px; color: #ffffff;}
+.btm_nav{ color: #fa9101 !important; text-shadow:none !important;}

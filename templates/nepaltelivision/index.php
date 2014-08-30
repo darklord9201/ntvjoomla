@@ -37,14 +37,13 @@ else
 
 // Add JavaScript Frameworks
 JHtml::_('bootstrap.framework');
-$doc->addScript('templates/' . $this->template . '/js/bootstrap.min.js');
+
 $doc->addScript('templates/' . $this->template . '/js/template.js');
 
 
 
 // Add Stylesheets
 $doc->addStyleSheet('templates/' . $this->template . '/css/bootstrap.min.css');
-
 $doc->addStyleSheet('templates/' . $this->template . '/css/template.css');
 
 // Load optional RTL Bootstrap CSS
@@ -74,14 +73,16 @@ else
 	<!--[if lt IE 9]>
 		<script src="<?php echo $this->baseurl; ?>/media/jui/js/html5.js"></script>
 	<![endif]-->
+
+    
 </head>
 
-<body onload="startTime()">
+<body>
 
 <div class="outer_wrapper">
 	
     
-    <div id="header">
+    <header id="header" class="banner">
     	<div class="inner_wrapper">
         	<div id="left_header_wrapper">
             	<div id="left_header_wrapper_logo">
@@ -91,11 +92,10 @@ else
                 </div>
                 <div id="left_header_wrapper_heading">
                 	<div id="header_heading_top">
-                    	<h1> <span class="ntvcolor"> <?php echo $logo; ?> </span> </h1>
+                    	<h1><?php echo $logo; ?> </span> </h1>
+                        <h3> communication for development </h3>
                     </div>
-                    <div id="header_heading_bottom">
-                    	<h3> communication for development </h3>
-                    </div>
+                    
                 </div>
             </div>
             <div id="right_header_wrapper">
@@ -163,6 +163,7 @@ else
                             </div>
                             
                             <div class="calendar_clock">
+
                             	
                             </div>
                         
@@ -190,11 +191,10 @@ else
         </div>
         
         
-    </div>
-    <div id="slider_overlay">
-    </div>
+    </header>
+    
     <div id="slider">
-		<img src="<?php echo $this->baseurl?>/templates/<?php echo $this->template?>/images/slider2.jpg" alt="slider" />
+		<img src="<?php echo $this->baseurl;?>/templates/<?php echo $this->template?>/images/slider3.jpg">
     </div>
     
     
@@ -634,5 +634,8 @@ else
             </div>
         </div>   
 </div>
+
+
+
 </body>
 </html>
