@@ -127,7 +127,7 @@ $stickyToolbar = $this->params->get('stickyToolbar', '1');
 				</a>
 			<?php endif; ?>
 
-			<a class="admin-logo" href="<?php echo $this->baseurl; ?>"><span class="icon-joomla"></span></a>
+			<a class="admin-logo" href="<?php echo $this->baseurl; ?>"></span></a>
 
 			<a class="brand hidden-desktop hidden-tablet" href="<?php echo JUri::root(); ?>" title="<?php echo JText::sprintf('TPL_ISIS_PREVIEW', $sitename); ?>" target="_blank"><?php echo JHtml::_('string.truncate', $sitename, 14, false, false); ?>
 				<span class="icon-out-2 small"></span></a>
@@ -167,7 +167,6 @@ $stickyToolbar = $this->params->get('stickyToolbar', '1');
 <?php if ($displayHeader) : ?>
 	<header class="header">
 		<div class="container-logo">
-			<img src="<?php echo $logo; ?>" class="logo" alt="<?php echo $sitename;?>" />
 		</div>
 		<div class="container-title">
 			<jdoc:include type="modules" name="title" />
