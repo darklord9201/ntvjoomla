@@ -246,7 +246,7 @@ $stickyToolbar = $this->params->get('stickyToolbar', '1');
 		<div class="btn-toolbar">
 			<div class="btn-group pull-right">
 				<p>
-					<jdoc:include type="modules" name="footer" style="no" />
+					<?php echo "Featherwebs" ?>
 					&copy; <?php echo date('Y'); ?> <?php echo $sitename; ?>
 				</p>
 
