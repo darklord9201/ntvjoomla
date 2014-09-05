@@ -30,7 +30,7 @@ defined('_JEXEC') or die;
 // Import library dependencies
 jimport('joomla.plugin.plugin');
 
-class plgContentCdMiniPolls extends JPluginLegacy
+class plgContentCdMiniPolls extends JPlugin
 {
 	private				$livepath			=	'';
 	private 			$JScriptegrator		=	null;

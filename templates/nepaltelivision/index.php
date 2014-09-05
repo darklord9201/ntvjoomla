@@ -305,7 +305,7 @@ else
                             </div>
                         </div>
                         <div class="extrainfo_wrapper">
-                        	
+                        	<jdoc:include type="modules" name="weather" style="none" />
                         </div>
                         <div class="extrainfo_wrapper">
                         	<div class="extrainfo_heading">
