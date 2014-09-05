@@ -194,7 +194,7 @@ else
     </header>
     
     <div id="slider">
-		<img src="<?php echo $this->baseurl;?>/templates/<?php echo $this->template?>/images/slider3.jpg">
+		<jdoc:include type="modules" name="Slider" style="none" />
     </div>
     
     
@@ -305,7 +305,7 @@ else
                             </div>
                         </div>
                         <div class="extrainfo_wrapper">
-                        	<img src="<?php echo $this->baseurl?>/templates/<?php echo $this->template?>/images/weather.png" width="361" height="245" alt="wht" />
+                        	
                         </div>
                         <div class="extrainfo_wrapper">
                         	<div class="extrainfo_heading">
@@ -517,17 +517,7 @@ else
                         </div>
                     </div>
                     <div id="poll_content">
-                    	<div id="poll_cont_question">
-                        	What should be NTV news priority in 2014?
-                        </div>
-                        <div class="poll">
-                        </div>
-                        <div class="poll">
-                        </div>
-                        <div class="poll">
-                        </div>
-                        <div class="submit">
-                        </div>
+                            <jdoc:include type="modules" name="poll" style="none" />
                     </div>
                 </div>
                 <div id="publiccorner_wrapper">
